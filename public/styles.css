@@ -1,19 +1,37 @@
-html,body {
-    background-color:rgb(238, 237, 237) ;
+* {
     padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    background-color:rgb(238, 237, 237) ;
+    padding:0 16px;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
 }
+button:hover {
+    cursor: pointer;
+}
 header {
+    margin: auto -16px;
     color:#fff;
     background-color: #f5ba13;
-    padding:10px 20px;
+    padding:15px 35px;
     box-shadow: 0 0px 10px rgba(0, 0, 0, 0.3);
 }
 .header-title {
-    font-size: 1.8rem;
+    font-size: 2rem;
     font-family: "McLaren";
     font-weight: 200;
+}
+.body {
+    
+}
+.notes-container {
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
 }
 .note {
     background-color: #fff;
@@ -22,19 +40,90 @@ header {
     box-shadow: 0 2px 5px #ccc;
     border-radius: 5px;
     padding:10px;
+    float: left;
+    position: relative;
 }
 .note h1 {
     font-size: 1.2em;
     margin-bottom: 10px;
-    
+
 }
 .note p {
     font-size: 1.1em;
     word-wrap: break-word;
     margin-bottom: 20px;
+    white-space: pre-wrap;
+    font-weight: 300;
+}
+.delete-btn {
+    position: absolute;
+    background-color: transparent;
+    color:#f39f51;
+    opacity: 0.6;
+    bottom: 5px;
+    right:7px;
+    border:none;
+    font-size: large;
+}
+
+footer {
+    margin-top: 150px;
+    text-align: center;
+    width: 100%;
+    height: 2.5rem;
+}
+
+footer p {
+    color:rgb(151, 150, 150)
 }
 
 
-footer {
 
+.form {
+    position: relative;
+    margin: 30px auto 0;
+    padding: 30px;
+    width: 400px;
+    height: 200px;
+    box-shadow: 0 2px 5px #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+input {
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    border:none;
+    font-size: 1.2em;
+    outline: none;
+}
+
+input::placeholder {
+    font-size: 1.2em;
+    
+}
+.title-input {
+    width:100%;
+    height: 30px;
+}
+
+.content-input {
+    padding-top: 20px;
+    width: 100%;
+    max-width:100%;
+    min-height: 100%;
+    border:none;
+    font-size: 1.2em;
+}
+
+.add-btn {
+    position: absolute;
+    bottom:-15px;
+    right:30px;
+    background-color:#f5ba13;
+    color:#fff;
+    border-radius: 100%;
+    font-weight:590;
+    border:none;
+    padding:10px 8px;
 }
