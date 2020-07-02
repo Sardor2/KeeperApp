@@ -5,7 +5,7 @@
   }
 
 body {
-    background-color:rgb(238, 237, 237) ;
+    background-color:rgb(238, 237, 237);
     background-image: url("https://www.transparenttextures.com/patterns/brick-wall-dark.png");
     padding:0 16px;
     margin: 0;
@@ -72,13 +72,13 @@ footer {
 }
 
 footer p {
-    color:rgb(151, 150, 150)
+    color:rgb(255, 255, 255);
 }
 
 
 form.create-note {
     position: relative;
-    max-width:width: 480px;
+    max-width: 480px;
     margin: 30px auto 20px auto;
     background: #fff;
     padding: 15px;
