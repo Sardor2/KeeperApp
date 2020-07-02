@@ -56,8 +56,7 @@ header {
 .delete-btn {
     position: absolute;
     background-color: transparent;
-    color:#f39f51;
-    opacity: 0.6;
+    color: #f5ba13;
     bottom: 5px;
     right:7px;
     border:none;
@@ -76,52 +75,36 @@ footer p {
 }
 
 
-
-.form {
+form.create-note {
     position: relative;
-    margin: 30px auto 0;
-    padding: 30px;
-    max-width: 400px;
-    height: 200px;
-    box-shadow: 0 2px 5px #ccc;
-    border-radius: 5px;
-    background-color: #fff;
-}
-
-input {
-    font-family: 'Montserrat', sans-serif;
-    display: block;
-    border:none;
-    font-size: 1.2em;
-    outline: none;
-}
-
-input::placeholder {
-    font-size: 1.2em;
-    
-}
-.title-input {
-    width:100%;
-    height: 30px;
-}
-
-.content-input {
-    padding-top: 20px;
+    width: 480px;
+    margin: 30px auto 20px auto;
+    background: #fff;
+    padding: 15px;
+    border-radius: 7px;
+    box-shadow: 0 1px 5px rgb(138, 137, 137);
+  }
+  form.create-note input,
+  form.create-note textarea {
     width: 100%;
-    max-width:100%;
-    min-height: 100%;
-    border:none;
+    border: none;
+    padding: 4px;
+    outline: none;
     font-size: 1.2em;
-}
-
-.add-btn {
+    font-family: inherit;
+    resize: none;
+  }
+  form.create-note button {
     position: absolute;
-    bottom:-15px;
-    right:30px;
-    background-color:#f5ba13;
-    color:#fff;
-    border-radius: 100%;
-    font-weight:590;
-    border:none;
-    padding:10px 8px;
-}
+    right: 18px;
+    bottom: -18px;
+    background: #f5ba13;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    outline: none;
+  }
