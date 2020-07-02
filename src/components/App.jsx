@@ -2,7 +2,7 @@ import React,{useState} from 'react';
 import Header from "./Header";
 import Footer from "./Footer";
 import Note from "../components/Note"
-import InputArea from "./formArea";
+import InputArea from "./createArea";
 
 function App() {
 
