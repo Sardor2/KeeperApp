@@ -83,7 +83,7 @@ footer p {
     position: relative;
     margin: 30px auto 0;
     padding: 30px;
-    width: 400px;
+    max-width: 400px;
     height: 200px;
     box-shadow: 0 2px 5px #ccc;
     border-radius: 5px;
@@ -126,4 +126,9 @@ input::placeholder {
     font-weight:590;
     border:none;
     padding:10px 8px;
+}
+
+
+@media (max-width:500px) {
+
 }

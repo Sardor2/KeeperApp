@@ -33,7 +33,6 @@ function App() {
         <div>
             <Header />
             <div className="body">   
-
                 <InputArea onAdd={handleClick}/>
                 <div className="notes-container">
                     {notes.map( (item,index) => {
