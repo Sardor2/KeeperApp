@@ -25,9 +25,7 @@ header {
     font-family: "McLaren";
     font-weight: 200;
 }
-.body {
-    
-}
+
 .notes-container {
     display: flex;
     justify-content:space-evenly;
