@@ -29,7 +29,8 @@ header {
 
 .notes-container {
     display: flex;
-    justify-content:space-evenly;
+    justify-content:left;
+    align-items: flex-start;
     flex-wrap: wrap;
 }
 .note {
